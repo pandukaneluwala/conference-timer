@@ -1,4 +1,4 @@
-# Session Timer (Web)
+# Conference Timer(Web)
 
 A large-screen presentation timer designed for conferences, university sessions, 3MT-style events, and judging panels.
 
