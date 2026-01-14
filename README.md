@@ -1,56 +1,76 @@
-# Conference Timer(Web)
+# Conference Timer (Web)
 
-A large-screen presentation timer designed for conferences, university sessions, 3MT-style events, and judging panels.
+**Conference Timer** is a large-screen, conference-ready presentation timer designed for academic events, thesis competitions (e.g., 3MT), workshops, and judged sessions.
 
-It supports:
-- Speaker phase → Judges/Changeover phase → Auto next speaker
-- Warning bell at a configurable remaining time (e.g., 30s remaining)
-- End-of-speech double bell
-- Large, projector-friendly display
-- “Up Next” queue (configurable number of names)
-- Excel-friendly paste (column/row/multi-cell) in Settings
-- Offline-friendly after first load (static HTML/JS)
+It supports structured presentation flows such as **Speaker → Evaluation / Judges → Next Speaker**, with strong visual cues and audible alerts suitable for projector-based sessions.
 
-Developed by **Panduka Neluwala**.
+Developed and maintained by **Panduka Neluwala**.
 
-## Live
+---
+
+## 🌐 Live Application
 Once GitHub Pages is enabled:
-- Settings: `https://pandukaneluwala.github.io/tea/settings.html`
-- Timer: `https://pandukaneluwala.github.io/tea/timer.html`
 
-## How to use (fast)
+- **Landing page**  
+  https://pandukaneluwala.github.io/conference-timer/
+
+- **Settings page**  
+  https://pandukaneluwala.github.io/conference-timer/settings.html
+
+- **Timer display**  
+  https://pandukaneluwala.github.io/conference-timer/timer.html
+
+---
+
+## ✨ Key Features
+
+- Speaker phase followed by evaluation / changeover phase
+- Automatic transition between phases and speakers
+- Configurable durations (speaker time, judges time, warning time)
+- Audible warning bell and end-of-time bell
+- Large, high-contrast display suitable for projectors
+- “Up Next” queue showing upcoming presenters
+- Excel-friendly copy–paste of participant lists (columns, rows, or mixed cells)
+- Offline-friendly after first load (static HTML/JS)
+- Keyboard shortcuts for moderators
+
+---
+
+## 🚀 Quick Start
+
 1. Open **Settings**
 2. Paste participant names (from Excel or text)
-3. Set durations (Speaker, Judges, Warning time)
+3. Set timing parameters
 4. Click **Save & Open Timer**
-5. On timer screen: click **START SESSION** (enables audio)
+5. On the timer screen, click **START SESSION** (required to enable audio)
 
-### Keyboard shortcuts
-- Space: Pause/Resume
-- → : Next speaker (with bell)
-- ← : Previous speaker
-- R : Reset current phase
-- S : Go back to Settings
+---
 
-## Notes
-- Settings are stored in the browser using **LocalStorage** (no server, no uploads).
-- If browser storage is cleared, settings will reset.
-- Audio requires a user click (“START SESSION”) due to browser security policies.
+## ⌨️ Keyboard Shortcuts
 
-## Contributing / Improving
-Contributions are welcome (PRs or issues). Some ideas:
-- Add a **Full-screen** toggle button
-- Add **Export/Import settings** (JSON) for portability between devices
-- Add **Session saving** (multiple lists, multiple rounds)
-- Add a **remote control** page (phone controls tablet) using WebSockets (requires backend)
-- Add **PWA install** support for offline install on Android/desktop
-- Add accessibility improvements (high-contrast mode, dyslexia-friendly font)
+- **Space** — Pause / Resume  
+- **→** — Next speaker (with bell)  
+- **←** — Previous speaker  
+- **R** — Reset current phase  
+- **S** — Return to Settings  
 
-### Design principles for contributors
-- Timer screen must remain **distraction-free**
-- No pop-ups/ads on the timer screen
-- Changes should work on a projector and on tablets
-- Keep it lightweight: plain HTML/CSS/JS preferred
+---
 
-## License
-This project is licensed under the MIT License © 2026 Panduka Neluwala.
+## ℹ️ Technical Notes
+
+- All settings are stored locally in the browser using **LocalStorage**
+- No server, uploads, or accounts are required
+- Clearing browser data will reset saved settings
+- Audio playback requires an initial user interaction due to browser security policies
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome. Please see `CONTRIBUTING.md` for guidelines.
+
+---
+
+## 📄 License
+
+MIT License © 2026 Panduka Neluwala
