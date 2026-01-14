@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Conference Timer"
+message: "If you use this software for academic or professional events, please cite it."
+type: software
+authors:
+  - family-names: Neluwala
+    given-names: Panduka
+version: 1.0.0
+date-released: 2026-01-14
+url: "https://pandukaneluwala.github.io/conference-timer/"
+repository-code: "https://github.com/pandukaneluwala/conference-timer"
+license: MIT
+keywords:
+  - conference
+  - presentation
+  - timer
+  - academic-events
+  - judging
+  - session-management
