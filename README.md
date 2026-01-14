@@ -53,4 +53,4 @@ Contributions are welcome (PRs or issues). Some ideas:
 - Keep it lightweight: plain HTML/CSS/JS preferred
 
 ## License
-MIT (recommended for open sharing and reuse).
+This project is licensed under the MIT License © 2026 Panduka Neluwala.
